@@ -20,8 +20,21 @@ def factor(n):
         result *= i
     return result
 
+# Another version
+
+def fact(n):
+    if n < 0:
+        return -1
+    elif n == 0:
+        return 1
+    else:
+        return (n * fact(n-1))
+    
+
 print(factorialize(10))
 print(factorialize(0))
 print(factor(10))
 print(factor(0))
+print(fact(10))
+print(fact(-1))
     
