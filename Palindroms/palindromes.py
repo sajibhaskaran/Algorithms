@@ -1,7 +1,8 @@
+# Purpose : Check for Palindromes
+# Note    : Need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and
+#           turn everything lower case in order to check for palindromes
 #
-#
-#
-#
+# Author  : Saji Bhaskaran
 
 import re
 
