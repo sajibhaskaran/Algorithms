@@ -1,4 +1,7 @@
-
+# Purpuse : Write a function that splits an array (first argument) into groups the length
+#         : of size (second argument) and returns them as a two-dimensional array.
+#
+# Authour : Saji Bhaskaran
 
 def chunk_list(lst, size):
     result = []
@@ -16,5 +19,4 @@ def chunk_list(lst, size):
 
 
 chunk_list(["a", "b", "c", "d"], 2)
-chunk_list([0, 1, 2, 3, 4, 5, 6, 7, 8], 4)      
 chunk_list([0, 1, 2, 3, 4, 5, 6, 7, 8], 2)
