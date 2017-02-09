@@ -1,3 +1,7 @@
+# Purpose : Return true if the string in the first element of the array contains all
+#         : of the letters of the string in the second element of the array.
+#
+# Author  : Saji Bhaskaran
 
 
 def mutation(lst):
@@ -7,13 +11,11 @@ def mutation(lst):
         if a == -1:
             return False
             break;
-    return True
-           
-    
+    return True         
                 
         
 
-    #print(x)
+   
 
 print(mutation(["hello", "Hello"]))
 print(mutation(["hello", "hey"]))
