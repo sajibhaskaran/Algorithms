@@ -1,10 +1,14 @@
-
-
+# Purpose : Perform a search and replace on the sentence using the arguments
+#         : provided and return the new sentence.
+#
+# Author  : Saji Bhaskaran
 
 
 def word_replace(string, before, after):
     if before.istitle():
         after = after.title()
+    else:
+        after = after[0].lower() + after[1:]
     result = string.replace(before, after)
     print(result)
 
